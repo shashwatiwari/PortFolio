@@ -10,16 +10,16 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "./ui/button";
-import { SendEmail } from "./SendEmail";
+// import { SendEmail } from "./SendEmail";
 
 const ContactForm = () => {
   return (
     <Card>
       <form
-        action={async (FormData) => {
-          "use server";
-          await SendEmail(FormData);
-        }}
+      // action={async (FormData) => {
+      //   "use server";
+      //   await SendEmail(FormData);
+      // }}
       >
         <CardHeader>
           <CardTitle className="icon_underline">Send me a mail.</CardTitle>
